@@ -1,0 +1,23 @@
+{
+  "name": "login_reg",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Rich Ruais <richruais@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0",
+    "bootstrap": "^3.3.7",
+    "angular-cookies": "^1.6.1"
+  }
+}

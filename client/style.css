@@ -1,0 +1,95 @@
+/* Global */
+
+body {
+    width: 1000px;
+    height: auto;
+    margin: 30px auto;
+    background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+ul {
+  color: red;
+  list-style: none;
+}
+
+h4 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+.navbtn {
+  float: right;
+  margin: 0px 20px 0px 10px;
+}
+
+#errMessage {
+  color: red;
+}
+
+/* Index Page */
+
+#left_col, #right_col {
+  padding: 20px;
+  background-color: white;
+  margin: 10px 5px 5px 10px;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+.btn-primary {
+  margin: 20px 0px;
+  display: inline-block;
+  width: 150px;
+}
+
+/*Users Page*/
+#main_col {
+  background-color: white;
+}
+
+p {
+  font-size: 13px;
+  color: white;
+}
+
+/* Wall Page */
+
+#one_message {
+  padding: 10px;
+  margin: 30px;
+  border: 1px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 5px;
+}
+
+#message_content {
+  display: inline-block;;
+}
+
+#message_form{
+  display: inline-block;
+  float: right;
+}
+
+#one_comment {
+  padding: 10px;
+  margin: 20px 0px 20px 70px;
+  border: 1px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 5px;
+}
+
+#comment_del_btn {
+}

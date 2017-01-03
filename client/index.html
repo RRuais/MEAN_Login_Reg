@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app = "mainApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login and registration</title>
+    <!-- All StyleSheets -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Angular Scripts -->
+    <script src="angular/angular.js" charset="utf-8"></script>
+    <script src="angular-route/angular-route.js" charset="utf-8"></script>
+    <script src="angular-cookies/angular-cookies.js" charset="utf-8"></script>
+    <script src="assets/app.js" charset="utf-8"></script>
+    <!-- Bootstrap and Jquery Scripts-->
+    <script type="text/javascript" src="jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <a href="#!/">Home</a>
+    <a href="#!/users">Show Users</a>
+  </header>
+  <div ng-view></div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<div id="main_container" class="container-fluid">
+    <div class="row">
+        <div class="col-md-5" id="left_col">
+            <h2>Login</h2>
+            <form ng-model="logModel" ng-submit='login()'>
+                <div class="form-group" id="login">
+                    <label for="email_log">Email:</label>
+                    <input type="text" name="email" id="email_log" class="form-control"  ng-model="logModel.email">
+                    <label for="pass_log">Password:</label>
+                    <input type="password" name="password" id="pass_log" class="form-control" ng-model="logModel.password">
+                    <input type="submit" value="Login" class="form-control btn-primary">
+                </div>
+            </form>
+            <div ng-repeat='error in errors'>
+              <p id='errMessage'>{{ error }}</p>
+            </div>
+        </div>
+        <div class="col-md-5" id="right_col">
+            <h2>New User Registration</h2>
+            <form ng-model='regModel' ng-submit="register()">
+                <div class="form-group" id="form">
+                    <label for="fname_reg">First Name:</label>
+                    <input type="text" name="firstName" id="fname_reg" class="form-control" ng-model ="regModel.firstName">
+                    <label for="lname_reg">Last Name:</label>
+                    <input type="text" name="lastName" id="lname-reg" class="form-control" ng-model ="regModel.lastName">
+                    <label for="email_reg">Email:</label>
+                    <input type="text" name="email" id="email_reg" class="form-control" ng-model ="regModel.email">
+                    <label for="pass_reg">Password:</label>
+                    <input type="password" name="password" id="pass_reg" class="form-control" ng-model ="regModel.password">
+                    <label for="cpass_reg_reg">Confirm Password:</label>
+                    <input type="password" name="c_password" id="cpass_reg" class="form-control" ng-model ="regModel.cPassword">
+                    <input type="submit" value="Register" class="form-control btn-primary" >
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
